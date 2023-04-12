@@ -1,0 +1,73 @@
+
+/*esto es un comentario en css*/
+.bg-navbar{
+    background-color:#000000;
+}
+
+nav ul li{
+    float: right;
+    list-style: none;
+    margin:10px;
+    line-height: 20px;
+    align-items:center;
+    
+}
+
+.fa-brands {
+        color: #ffffff;
+}
+
+.fa-brands:hover {
+
+    color: blue;
+}
+
+
+.fa-solid{
+    color: #ffffff;
+}
+
+.fa-solid:hover{
+    color: red;
+}
+
+.rounded-square {
+    width: 150px; /* ajusta el ancho a tu necesidad */
+    height: 150px; /* ajusta la altura a tu necesidad */
+    object-fit: cover; /* para asegurarte de que la imagen cubra todo el cuadro */
+    border-radius: 100%; /* esto hará que la imagen se convierta en un círculo */
+ }
+
+section.banner{
+ background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),  url(../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+ width: 100%;
+ height: 100vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -moz-background-size: cover;
+ -msn-background-size: cover;
+}
+h1.intro{    
+    font-size: 4.5rem;
+}
+
+h2.intro{    
+    font-size: 2.5rem;
+}
+h3.intro{
+    padding-top: 15%;
+    font-size: 3rem;
+}
+
+.presentacion{
+    background: #070c0c;
+}
+
+.experiencia{
+    background: #070c0c;
+}
